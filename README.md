@@ -30,7 +30,6 @@ out_name           the name for writting down the final dem product [default: de
 Example:          run_download_DEM.sh $PWD -2.12/-1.35/37.23/38.32
                   run_download_DEM.sh $PWD -2.12/-1.35/37.23/38.32 0 0 dem_name
                   run_download_DEM.sh $PWD -2.12/-1.35/37.23/38.32 1 1 dem_name
-#########################################################################################
 ```
 
 - For the detailed description of NASADEM, go
