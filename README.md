@@ -1,5 +1,5 @@
 # run_download_DEM
-##### Script for preparing DEM data assisting InSAR processing with GAMMA or ISCE. 
+#### Script for preparing DEM data assisting InSAR processing with GAMMA or ISCE. 
 
 It will download either the NASADEM (srtm) OR Copernicus 30m resolution DEM with a geographic AOI box. 
 
