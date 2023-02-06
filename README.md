@@ -14,7 +14,7 @@ v1.0, Feb. 10, 2022, Dr. Xiaowen Wang @ [UCD & SWJTU]
 usage: run_download_DEM.sh <work_path> <dem_dir> <box> <soft_flag> [out_name]
                                                                               
 input parameters:                                                             
-work_path:         the work path where a DEM folder will be created, e.g.PWD  
+work_path:         the work path where a DEM folder will be created, e.g., $PWD  
 range_aoi:         the lat-lon box of AOI (<west>/<east>/<south>/<north>)     
 proc_flag:         which DEM source will be used: [default:0]
                        0---> download new NASADEM (SRTM) from aws
@@ -27,9 +27,9 @@ out_name           the name for writting down the final dem product [default: de
 **Note**:          if the proc_flag is set to be 2, the Geotiff DEM files...
                    should be placed in the folder: $work_path/dem/dem_tiff
  
-Example:          run_download_DEM.sh $PWD -2.12/-1.35/37.23/38.32
-                  run_download_DEM.sh $PWD -2.12/-1.35/37.23/38.32 0 0 dem_name
-                  run_download_DEM.sh $PWD -2.12/-1.35/37.23/38.32 1 1 dem_name
+Example:           run_download_DEM.sh $PWD -2.12/-1.35/37.23/38.32
+                   run_download_DEM.sh $PWD -2.12/-1.35/37.23/38.32 0 0 dem_name
+                   run_download_DEM.sh $PWD -2.12/-1.35/37.23/38.32 1 1 dem_name
 ```
 
 - For the detailed description of NASADEM, go
@@ -41,8 +41,7 @@ https://earthdata.nasa.gov/esds/competitive-programs/measures/nasadem
  https://spacedata.copernicus.eu/web/cscda/dataset-details?articleId=394198 
 
 
-
-### Note:
+### Notes:
 
 1. Before running this script you have to install the GDAL and AWS CLI tool.  
 
