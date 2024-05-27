@@ -46,7 +46,7 @@ if [ $# -lt 2 ]; then
   echo "                       0---> download new NASADEM (SRTM) from aws " 
   echo "                       1---> download new Copernicus DEM from aws " 
   echo "                       2---> use the existing DEM (*.tif) in the *dem_tiff* folder" 
-  echo "soft_flag:         the dem will be convert to specific format: [default:0]"
+  echo "soft_flag:         the dem will be converted to specific format: [default: 0]"
   echo "                       0--->ISCE; 1--->GAMMA"   
   echo "out_name           the name for writting down the final dem product [default: dem]"             
   echo " "
